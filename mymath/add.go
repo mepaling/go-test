@@ -5,3 +5,10 @@ package mymath
 func Add (a int, b int) int {
 	return a+b
 }
+
+// Add adds the input integer.
+//
+// Deprecated: Use Add for instead.
+func OldAdd (a, b int) int {
+	return a+b
+}
