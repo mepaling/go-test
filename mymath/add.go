@@ -2,13 +2,13 @@ package mymath
 
 // Add adds the input integer.
 // BUG(mepaling): can only used in "int" type
-func Add (a int, b int) int {
-	return a+b
+func Add(a int, b int) int {
+	return a + b
 }
 
-// Add adds the input integer.
+// OldAdd adds the input integer.
 //
 // Deprecated: Use Add for instead.
-func OldAdd (a, b int) int {
-	return a+b
+func OldAdd(a, b int) int {
+	return a + b
 }
