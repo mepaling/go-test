@@ -1,7 +1,7 @@
 package mymath
 
 // Add adds the input integer.
-// BUG(add): can only used in "int" type
+// BUG(mepaling): can only used in "int" type
 func Add (a int, b int) int {
 	return a+b
 }
